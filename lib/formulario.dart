@@ -121,10 +121,8 @@ class _formularioState extends State<formulario> {
                     if (isValid == false) {
                       return "Digite um email válido!";
                     }
-                  } else {
-                    return "digite um email válido";
-                  }
-                  return null;
+                  } else
+                    return null;
                 },
               ),
               DefaultTextForm(

@@ -37,7 +37,7 @@ class _formularioState extends State<formulario> {
     return Scaffold(
       appBar: AppBar(
         flexibleSpace: FlexibleSpaceBar(
-          title: Text("Cadastro de Pet"),
+          title: Text("SISPET - Cadastro"),
           background: Container(
             color: Colors.black, // Defina a cor de fundo desejada aqui
           ),
@@ -133,7 +133,7 @@ class _formularioState extends State<formulario> {
                 controller: _senhaEC,
                 validator: (value) {
                   if (value!.length < 6) {
-                    return "Senha deve ter 6 caracteres";
+                    return "Senha deve ter no minimo 6 caracteres";
                   }
                   return null;
                 },

@@ -1,6 +1,6 @@
 # Sispet Projeto Dart
 
-## Desenvolvido para avaliação da matéria de Tecnologias móveis da Faculdade Senac Maringá
+## Desenvolvido para Faculdade Senac Maringá
 
 Tela de teste para o formulario de cadastro do Sispet
 
